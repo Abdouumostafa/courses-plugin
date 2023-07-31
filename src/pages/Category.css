@@ -1,0 +1,161 @@
+.MainCategory
+{
+    display: grid;
+}
+.BigCol
+{
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+margin: 2em;
+}
+.Col-1Category
+{
+    display: grid;
+    border-right: 1px #9D9D9D solid;
+}
+.Col-2Category
+{
+display: grid;
+margin: 2em;
+}
+
+.Line-1Category
+{
+display: flex;
+justify-content: space-between;
+padding: 0em 0em 2em 3em;
+}
+.Line-3Category
+{
+    padding-bottom: 7px;
+}
+.Textline1
+{
+    color: var(--black-text, #000);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.984px; /* 133.3% */
+}
+.btncat-2
+{
+    color: #056AFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    border-radius: 10px;
+    border: 1px solid #056AFF;
+    background: #FFF;
+    transition: 0.7s;
+}
+.btncat-2:hover
+{
+    transition: 0.5s;
+    background-color: #056AFF;
+    color: #FFF;
+}
+.btncat-all
+{
+    background-color: #056AFF;
+    border: 1px #056AFF solid ;
+    width: 167px;
+    height: 48px;
+    padding: 8px 32px 8px 32px;
+    border-radius: 10px;
+    color: #FFF;
+    transition: 0.9s;
+    
+}
+
+.Filterbtn
+{
+border-radius: 10px;
+border: 1px solid var(--vivid-blue-button, #056AFF);
+color: #056AFF;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+background-color: #FFF;
+transition: 0.7s;
+
+}
+.Filterbtn:hover
+{
+    transition: 0.5s;
+    background-color: #056AFF;
+    color: #FFF;
+}
+.Rating,
+.Durations,
+.Categories,
+.Level,
+.Language,
+.Price,
+.Features
+{
+    display:grid;
+    border-bottom: 1px #9D9D9D solid;
+}
+.Filter
+{
+    margin: 2em;
+}
+.Line1-Filter
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 9px;
+    align-items: center;
+}
+.rating
+{
+color: var(--moon-knight, #111441);
+font-variant-numeric: lining-nums proportional-nums;
+font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+}
+.FilterRating
+{
+    display: flex;
+    gap: 7px;
+    padding: 5px;
+    align-items: center;
+}
+.numstar,
+.numhours,
+.titlecat,
+.titlelevel,
+.titlelang
+{
+    color: var(--moon-knight, #111441);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+.closeandopenfilter
+{
+    background-color: #FFF;
+    border: none;
+}
+.closeandopenfilter:focus
+{
+    border: none;
+}
+.Pagination
+{
+    display: flex;
+    justify-content: center;
+}
